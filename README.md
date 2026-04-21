@@ -14,6 +14,13 @@ A complete machine learning project that detects network intrusions with 99.4% a
 - **Pre-trained model** included
 - **Works on Windows, Mac, and Linux**
 
+## 🖼️ Project Visuals
+
+<p align="center">
+  📄 <a href="https://github.com/DaniSam-STU/nids_with_ml/tree/main/project_visuals">
+  Project_images
+  </a>
+
 ## 🚀 Quick Start
 
 ### For Windows Users:
