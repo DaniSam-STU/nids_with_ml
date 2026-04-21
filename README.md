@@ -1,130 +1,173 @@
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A66C2,100:181717&height=100&section=header"/>
 </p>
 
 # 🛡️ ML-Based Network Intrusion Detection System
 
-A complete machine learning project that detects network intrusions with 99.4% accuracy using Random Forest algorithm.
+A Machine Learning-based Network Intrusion Detection System (NIDS) that detects malicious network activity with **99.4% accuracy** using the Random Forest algorithm.
 
-## 📋 Features
+---
 
-- **99.4% accuracy** on NSL-KDD dataset
-- **One-click installation** and setup
-- **Web dashboard** for visualization
-- **Pre-trained model** included
-- **Works on Windows, Mac, and Linux**
+## 📌 Project Overview
+
+This project analyzes network traffic data and classifies it into **normal** or **intrusion** categories.
+It helps in identifying cyber attacks efficiently using machine learning techniques.
+
+---
+
+## ⚙️ Tech Stack
+
+* **Programming Language:** Python
+* **Machine Learning:** Scikit-learn
+* **Data Processing:** Pandas, NumPy
+* **Visualization:** Matplotlib, Seaborn
+* **Web Dashboard:** Flask
+* **Dataset:** NSL-KDD
+
+---
+
+## 🚀 Features
+
+* 🔍 Intrusion detection using ML model
+* 📊 99.4% model accuracy
+* 🌐 Web dashboard for monitoring
+* ⚡ Automated setup (Windows + Linux + Mac)
+* 📈 Visualizations (confusion matrix, graphs)
+* 🔐 Safe & educational (no real attacks performed)
+
+---
 
 ## 🖼️ Project Visuals
 
 <p align="center">
-  📄 <a href="https://github.com/DaniSam-STU/nids_with_ml/tree/main/project_visuals">
-  Project_images
+  <a href="https://github.com/DaniSam-STU/nids_with_ml/tree/main/project_visuals">
+    View Project Images
   </a>
+</p>
 
-## 🚀 Quick Start
+---
 
-### For Windows Users:
-1. **Download** this project as ZIP
-2. **Extract** the folder
-3. **Double-click** `run.bat`
-4. Follow the on-screen instructions
+## 🧠 System Workflow
 
-### For Mac/Linux Users:
-1. **Download** this project
-2. Open terminal in the project folder
-3. Run: `bash run.sh`
-4. Follow the on-screen instructions
+1. Data Collection (NSL-KDD dataset)
+2. Data Preprocessing
+3. Feature Selection
+4. Model Training (Random Forest)
+5. Prediction (Normal / Attack)
+6. Visualization via Dashboard
 
-
-## 🎯 What You'll Get
-
-After running the installer:
-1. **Python environment** setup
-2. **All dependencies** installed
-3. **Dataset** downloaded automatically
-4. **ML model** trained (or loaded)
-5. **Web dashboard** at http://localhost:5000
+---
 
 ## 📊 Results
 
-| Metric | Value |
-|--------|-------|
-| Accuracy | 99.4% |
+| Metric    | Value |
+| --------- | ----- |
+| Accuracy  | 99.4% |
 | Precision | 99.2% |
-| Recall | 98.9% |
-| F1-Score | 99.0% |
+| Recall    | 98.9% |
+| F1-Score  | 99.0% |
 
-## 🖼️ Visualizations
+---
 
-Check the `project_visuals/` folder for:
-- Confusion Matrix
-- Feature Importance Chart
-- Model Comparison
-- Attack Distribution
+## ⚡ Installation & Setup
 
-## ⚠️ Important Notes
+### 🔹 Clone Repository
 
-- This project uses **simulated data only**
-- No real network scanning occurs
-- For **educational purposes** only
-- Requires **Python 3.8+**
+```bash
+git clone https://github.com/DaniSam-STU/nids_with_ml.git
+cd nids_with_ml
+```
 
-## 🆘 Troubleshooting
+### 🔹 Automatic Setup
 
-### "Python not found"
-- Install Python from https://python.org
-- Check "Add Python to PATH" during installation
+#### Windows:
 
-### Dashboard doesn't open
-- Make sure port 5000 is free
-- Check firewall settings
-- Try: http://127.0.0.1:5000
+```bash
+run.bat
+```
 
-### Installation stuck
-- Check internet connection
-- Run as Administrator (Windows)
-- Try manual installation (see below)
+#### Mac/Linux:
+
+```bash
+bash run.sh
+```
+
+---
 
 ## 🛠️ Manual Installation
 
-If automatic installer fails:
-
 ```bash
-# 1. Create virtual environment
 python -m venv venv
 
-# 2. Activate it
+# Activate environment
 # Windows:
 venv\Scripts\activate
 # Mac/Linux:
 source venv/bin/activate
 
-# 3. Install packages
 pip install -r requirements.txt
 
-# 4. Run dashboard
 cd app
 python app.py
 ```
-## 👨‍💻 Author & Contact Information 
-- DAani Sam
+
+---
+
+## 🌐 Output
+
+After running the project:
+
+* Dashboard available at → **http://localhost:5000**
+* Displays predictions & visual analytics
+
+---
+
+## ⚠️ Important Notes
+
+* Uses **simulated dataset only**
+* No real network scanning
+* For **educational purposes only**
+
+---
+
+## 🆘 Troubleshooting
+
+### Python not found
+
+* Install from https://python.org
+* Enable "Add to PATH"
+
+### Dashboard not opening
+
+* Check port 5000
+* Try http://127.0.0.1:5000
+
+---
+
+## 👨‍💻 Author
+
+**Deepanshu Semwal**
+
 <p align="center">
   <a href="https://github.com/DaniSam-STU">
-    <img src="https://img.shields.io/badge/GitHub-@DaniSam--STU-181717?style=for-the-badge&logo=github">
+    <img src="https://img.shields.io/badge/GitHub-DaniSam--STU-181717?style=for-the-badge&logo=github">
   </a>
   <a href="https://www.linkedin.com/in/deepanshu-s-437566373">
     <img src="https://img.shields.io/badge/LinkedIn-Deepanshu--Semwal-0A66C2?style=for-the-badge&logo=linkedin">
   </a>
   <a href="mailto:deepanshusemwal99@gmail.com">
-    <img src="https://img.shields.io/badge/Email-deepanshusemwal99@gmail.com-D14836?style=for-the-badge&logo=gmail">
+    <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail">
   </a>
 </p>
- 
-## 📜 License
-This project is intended for educational and ethical use only.
+
+---
+
 ## ⭐ Support
+
 If you like this project, give it a ⭐ on GitHub!
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A66C2,100:181717&height=100&section=footer"/>
 </p>
+
