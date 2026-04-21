@@ -1,0 +1,31 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/
+datasets/
+*.csv
+*.txt
+*.pcap
+*.pcapng
+
+# Models
+*.pkl
+*.joblib
+*.h5
+
+# Logs / backups
+*.log
+*.db
+grafana/
+backup/
+
+# Env
+.env
